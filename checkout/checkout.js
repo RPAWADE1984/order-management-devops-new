@@ -1,4 +1,3 @@
-function checkout{
-   console.log("Happy Diwali");
-
+function checkout() {
+  console.log("Happy Diwali");
 }
