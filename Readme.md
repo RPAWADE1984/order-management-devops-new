@@ -32,3 +32,5 @@ git worktree add -b <new-branch> <location> <existing-branch>
 git worktree add -b feature/checkout ./checkout dev
 git worktree remove checkout
 git worktree list
+
+## git reset and git revert
