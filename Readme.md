@@ -1,3 +1,12 @@
+# connect local repo with remote repo
+
+git remote add origin https://github.com/RPAWADE1984/order-management-devops-new.git
+
+## to check connected remote repos -
+
+> git remote or git remote -v
+
+git push origin <branch-name>
 feat: added new functionality
 fix:
 docs:
@@ -30,3 +39,34 @@ git worktree add <location => <branch>
 git worktree ./checkout dev
 git worktree add -b <new-branch> <location> <existing-branch>
 git worktree add -b feature/checkout ./checkout dev
+git worktree remove checkout
+git worktree list
+
+## git reset and git revert
+
+# adding demo content in a file
+
+<<<<<< HEAD
+
+git log --oneline
+
+to come out of vim -
+escape :wq
+=======
+
+git log --oneline
+
+to come out of vim -
+escape :wq
+=======
+
+##
+
+git cherrypick -
+
+10 Us ready for release
+Merge request /PR
+Identify the commit id for all those US
+create a new branch based on master
+do cherrypick of those 10 ustories/ or commit ids
+push the branch and raise the PR
