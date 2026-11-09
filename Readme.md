@@ -37,7 +37,22 @@ git worktree list
 
 # adding demo content in a file
 
+<<<<<< HEAD
+
 git log --oneline
 
 to come out of vim -
 escape :wq
+=======
+
+> > > > > > > parent of 7ee87d6 (docs:fixed checkout issue and added new file)
+
+<<<<<<< HEAD
+
+git log --oneline
+
+to come out of vim -
+escape :wq
+=======
+
+> > > > > > > parent of 7ee87d6 (docs:fixed checkout issue and added new file)
