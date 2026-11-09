@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 12fea471be0dab6698d679d79ce6bf20181ad0bc
 # connect local repo with remote repo
 
 git remote add origin https://github.com/RPAWADE1984/order-management-devops-new.git
@@ -7,6 +12,10 @@ git remote add origin https://github.com/RPAWADE1984/order-management-devops-new
 > git remote or git remote -v
 
 git push origin <branch-name>
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> 12fea471be0dab6698d679d79ce6bf20181ad0bc
 feat: added new functionality
 fix:
 docs:
