@@ -38,3 +38,6 @@ git worktree list
 # adding demo content in a file
 
 git log --oneline
+
+to come out of vim -
+escape :wq
