@@ -30,3 +30,5 @@ git worktree add <location => <branch>
 git worktree ./checkout dev
 git worktree add -b <new-branch> <location> <existing-branch>
 git worktree add -b feature/checkout ./checkout dev
+git worktree remove checkout
+git worktree list
