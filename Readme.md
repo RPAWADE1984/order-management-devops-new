@@ -24,4 +24,9 @@ git switch <branchname> <source-branch> - to create a branch
 
 git switch -c <branchname>,git switch -c <branchname> <source-branch> - to create a branch and switch to new branch
 
-##
+## workTreaa
+
+git worktree add <location => <branch>
+git worktree ./checkout dev
+git worktree add -b <new-branch> <location> <existing-branch>
+git worktree add -b feature/checkout ./checkout dev
