@@ -45,14 +45,19 @@ to come out of vim -
 escape :wq
 =======
 
-> > > > > > > parent of 7ee87d6 (docs:fixed checkout issue and added new file)
-
-<<<<<<< HEAD
-
 git log --oneline
 
 to come out of vim -
 escape :wq
 =======
 
-> > > > > > > parent of 7ee87d6 (docs:fixed checkout issue and added new file)
+##
+
+git cherrypick -
+
+10 Us ready for release
+Merge request /PR
+Identify the commit id for all those US
+create a new branch based on master
+do cherrypick of those 10 ustories/ or commit ids
+push the branch and raise the PR
